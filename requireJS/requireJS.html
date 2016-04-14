@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>requireJS</title>
+	<style>
+		.wrapper{
+			width: 100%;
+			height: 300px;
+			background: gray;
+			position: relative;
+		}
+		.box{
+			position: absolute;
+			width: 100px;
+			height: 100px;
+			background: lime;
+		}
+	</style>
+</head>
+<body>
+	<div class="wrapper">
+		<div class="box"></div>
+	</div>
+</body>
+</html>
+
+<script defer async="true" src="js/require.min.js" data-main="js/app"></script>
